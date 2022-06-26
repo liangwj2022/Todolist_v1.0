@@ -7,7 +7,7 @@ const date = require(__dirname + "/date.js");
 
 const app = express();
 
-mongoose.connect("mongodb+srv://liangw27:legend31015789@start.hh8oi.mongodb.net/todolistDB?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://liangw27:WJZpx8QlLhbIEFhd@start.hh8oi.mongodb.net/todolistDB?retryWrites=true&w=majority");
 
 const itemsSchema = {
   name: String
